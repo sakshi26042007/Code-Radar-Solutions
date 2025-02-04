@@ -1,4 +1,4 @@
-#include<strdio.h>
+#include<stdio.h>
 int main()
 {
     printf("enter number")
