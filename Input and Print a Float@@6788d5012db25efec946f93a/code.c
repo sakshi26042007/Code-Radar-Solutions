@@ -11,3 +11,4 @@ int main() {
     printf("You entered: %f\n", number);  // Print the number exactly as it is
     
     return 0;
+}
