@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main() {
+    // Input a single word
     char word[100];
-
-    // Take input and print it
     scanf("%s", word);
+
+    // Output the entered word
     printf("%s\n", word);
 
     return 0;
