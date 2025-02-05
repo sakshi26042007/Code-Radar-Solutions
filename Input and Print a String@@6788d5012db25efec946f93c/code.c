@@ -2,9 +2,9 @@
 
 int main() {
 
-    string word[100];
-    scanf("%s", word);
-    printf("%s\n", word);
+    char world[100];
+    scanf("%s", world);
+    printf("%s\n", world);
 
     return 0;
 }
