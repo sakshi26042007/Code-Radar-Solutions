@@ -8,7 +8,7 @@ int main() {
     Average = (num1 + num2 + num3) / 3;
 
     // Print the average
-    printf(" Average is: %.2f\n", Average);
+    printf(" Average: %.2f\n", Average);
 
     return 0;
 }
