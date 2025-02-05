@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int num, n, result;
+    int num, n;
 
-    // Reading the number and the bit position
+    // Reading the number and bit position from the user
     scanf("%d %d", &num, &n);
 
-    // Checking the nth bit
-    result = (num >> (n - 1)) & 1;
+    // Using bitwise AND to check the nth bit
+    int result = (num >> n) & 1;
 
     // Printing the result
-    printf("The %dth bit is: %d\n", n, result);
+    printf("%d\n", result);
 
     return 0;
 }
