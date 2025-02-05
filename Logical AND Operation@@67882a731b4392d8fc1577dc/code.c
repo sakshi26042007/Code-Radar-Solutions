@@ -6,7 +6,7 @@ int main() {
     if (num1 && num2>=0) {
         printf("True");
     } else {
-        printf("True");
+        printf("False");
     }
 
     return 0;
