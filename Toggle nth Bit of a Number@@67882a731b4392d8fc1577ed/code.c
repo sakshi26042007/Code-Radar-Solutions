@@ -1,23 +1,14 @@
 #include <stdio.h>
-
-int toggle_nth_bit(int number, int n) {
-    // Toggle the nth bit using XOR
-    return number ^ (1 << n);
-}
-
 int main() {
-    int number, n;
+    int num, n;
+    scanf("%d %d", &num, &n);
     
-    // Take input from the user
-    printf("Enter the number: ");
-    scanf("%d", &number);
-    printf("Enter the bit position to toggle: ");
-    scanf("%d", &n);
+    // Create a mask with 1 at the nth position
+    int mask = 1 << n;
     
-    // Toggle the nth bit
-    int result = toggle_nth_bit(number, n);
+    // Toggle the nth bit by performing bitwise XOR with the mask
+    num = num ^ mask;
     
-    printf("Output: %d\n", result);
-    
+    printf("%d\n", num); 
     return 0;
 }
