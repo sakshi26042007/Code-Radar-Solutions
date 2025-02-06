@@ -1,17 +1,17 @@
 #include <stdio.h>
 
+char* welcome() {
+    return "Welcome to Code Radar!";
+}
+
 int main() {
     int num;
-
-    // Reading an integer from input
     scanf("%d", &num);
-
-    // Checking LSB using bitwise AND
+    
     if (num & 1) {
-        printf("LSB is Set (1)\n");
+        printf("Set\n");  // If LSB is 1
     } else {
-        printf("LSB is Not Set (0)\n");
+        printf("Not Set\n");  // If LSB is 0
     }
-
     return 0;
 }
