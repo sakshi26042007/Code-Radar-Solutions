@@ -1,15 +1,12 @@
 #include <stdio.h>
 
-int main() {
-    char name[100], hobby[100];
-    int age;
-    fgets(name, sizeof(name), stdin);  /
-    scanf("%d", &age);
-    getchar(); 
-    fgets(hobby, sizeof(hobby), stdin);  
-    printf("\nName: %s", name);
-    printf("Age: %d\n", age);
-    printf("Hobby: %s", hobby);
 
+int main() {
+    char Name[50],Hobby[50];
+    int Age;
+    scanf("%s %d %s",Name,&Age,Hobby);
+    printf("Name: %s\n",Name);
+    printf("Age: %d\n",Age);
+    printf("Hobby: %s\n",Hobby);
     return 0;
 }
